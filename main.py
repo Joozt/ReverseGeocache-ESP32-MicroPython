@@ -4,7 +4,7 @@ from machine import Pin, SoftI2C, PWM, UART
 from ssd1306 import SSD1306_I2C
 from rtttl import RTTTL
 
-# Coordinates can be copied from Google Maps (use sattelite view for better results)
+# Coordinates can be copied from Google Maps (use satellite view for better results)
 FIRST_DESTINATION_LAT = 52.37823186700114
 FIRST_DESTINATION_LON = 4.899774671697002
 SECOND_DESTINATION_LAT = 51.92339875478843
