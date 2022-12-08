@@ -20,8 +20,8 @@ The original idea comes from [Mikal Hart](http://arduiniana.org/projects/the-rev
  - [Dupont wires](https://aliexpress.com/wholesale?SearchText=dupont+wires)
  - [3D printed lock mechanism](https://www.thingiverse.com/thing:5689225)
 
- ![Lock servo](Photos/Servo.jpg)
- ![Lock](Photos/Lock.jpg)
+ [![Lock servo](Photos/Servo-small.jpg)](Photos/Servo.jpg)
+ [![Lock](Photos/Lock-small.jpg)](Photos/Lock.jpg)
 
 
  ## Working
@@ -29,7 +29,7 @@ The original idea comes from [Mikal Hart](http://arduiniana.org/projects/the-rev
  
  When the present is unwrapped, the person doesn't know what it is and will push the button. It will show a welcome message and play a tune. Then it will start searching for GPS signals. It will search for 5 minutes before turning off. During the next attempts it will show a message that you have to be patient and even outdoors it can take a couple of minutes.
 
- When a GPS signal is found, it will show the distance to the destination (10m precision). It will keep updating the distance when moving, but it will turn off after 1 minute to make it is not _too_ easy to find the destination. 
+ When a GPS signal is found, it will show the distance to the destination (10m precision). It will keep updating the distance when moving, but it will turn off after 1 minute to make it is not _too_ easy to find the destination. The LED from the GPS receiver will start blinking, which can be positioned in front of a LED lens/cap so that it is visible to the user.
  
  It shows how many attempts were made. Maximum 50 attempts are allowed. After 50 attempts it shows a failure message and play a sad tune. But after waiting 10 seconds the program continues, so that it is still possible to find the destination and unlock the box.
 
@@ -37,15 +37,20 @@ The original idea comes from [Mikal Hart](http://arduiniana.org/projects/the-rev
 
  After the second destination has been found, the puzzle is complete. It will open the lock, play a winning tune and display a congratulations message. After that it will show a greetings message and turn off after 1 minute.
 
+ After completing the puzzle, next time it is turned on it will immediately play the winning tune, display the congratulations and greeting messages and turn off.
+
  [![YouTube](Photos/Youtube.png)](https://youtu.be/wEcFw1qeKLA)
 
+ ## Schematic
+ ![Schematic](Schematic/Schematic.png)
+
  ## Messages
- ![Welcome](Photos/1.%20Welcome.jpg)
- ![Attempt](Photos/2.%20Attempt.jpg)
- ![No signal](Photos/3.%20No%20signal.jpg)
- ![Be patient](Photos/4.%20Be%20patient.jpg)
- ![Distance](Photos/5.%20Distance.jpg)
- ![First completed](Photos/6.%20First%20completed.jpg)
- ![All completed](Photos/7.%20All%20completed.jpg)
- ![Greetings](Photos/8.%20Greetings.jpg)
- ![Failed](Photos/9.%20Failed.jpg)
+ [![Welcome](Photos/1.%20Welcome-small.jpg)](Photos/1.%20Welcome.jpg)
+ [![Attempt](Photos/2.%20Attempt-small.jpg)](Photos/2.%20Attempt.jpg)
+ [![No signal](Photos/3.%20No%20signal-small.jpg)](Photos/3.%20No%20signal.jpg)
+ [![Be patient](Photos/4.%20Be%20patient-small.jpg)](Photos/4.%20Be%20patient.jpg)
+ [![Distance](Photos/5.%20Distance-small.jpg)](Photos/5.%20Distance.jpg)
+ [![First completed](Photos/6.%20First%20completed-small.jpg)](Photos/6.%20First%20completed.jpg)
+ [![All completed](Photos/7.%20All%20completed-small.jpg)](Photos/7.%20All%20completed.jpg)
+ [![Greetings](Photos/8.%20Greetings-small.jpg)](Photos/8.%20Greetings.jpg)
+ [![Failed](Photos/9.%20Failed-small.jpg)](Photos/9.%20Failed.jpg)
